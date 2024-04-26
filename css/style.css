@@ -2,9 +2,11 @@
   margin: 0px;
   padding: 0px;
 }
+/*this is continer page*/
 .continer{
     margin-top: 0px;
-    padding: 0px;
+    padding: 20px;
+
 }
 .menu-top{
   margin: 0px;
@@ -20,7 +22,10 @@
   text-align: left;
   padding-top: 50px;
   font-size: 20px;
-  ont-family: monospace;
+  Font-family: monospace;
+  color: #ffffff;
+  margin-left: 30px;
+
 }
 
 .liste-menu{
@@ -39,4 +44,45 @@
 }
 .liste-menu li a{
   text-decoration: none;
+  color: #ffffff;
+}
+.liste-menu li a:hover{
+  text-decoration: underline;
+  color: Peach;
+}
+
+/*this is page secction page*/
+
+.section{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.my-name{
+  color: coral;
+  font-size: 20px;
+  width: 30%;
+  text-transform: uppercase;
+  padding: 30px;
+}
+.photo{
+  width: 70%;
+  padding-left: 10px;
+}
+/*this is image iditing in future*/
+.photoidie{
+  width: 96%;
+  height: 61%;
+  border-radius: 50%; /* Makes the image circular */
+}
+/*this is title name in futu*/
+.titlename{
+  font-size: 30px;
+  font-family: monospace;
+  padding-bottom: 20px;
+}
+.para-expl{
+  font-size: 30px;
+  font-family: monospace;
+  padding-bottom: 20px;
 }
