@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.continer{
+    margin-top: 0px;
+    padding: 0px;
+}
+.menu-top{
+  margin: 0px;
+  padding: 0px;
+  background-color: coral;
+  width: 100%;
+  display: flex;
+}
+.name-logo{
+  width: 30%;
+  height: 60px;
+  justify-content: space-between;
+  text-align: left;
+  padding-top: 50px;
+  font-size: 20px;
+  ont-family: monospace;
+}
+
+.liste-menu{
+  width: 50%;
+  height: 60px;
+  justify-content: space-between;
+  display: flex;
+  text-align: center;
+  padding-top: 50px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family: monospace;
+}
+.liste-menu li{
+  list-style: none;
+}
+.liste-menu li a{
+  text-decoration: none;
+}
