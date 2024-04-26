@@ -86,3 +86,11 @@
   font-family: monospace;
   padding-bottom: 20px;
 }
+.button1{
+  width: 90%;
+  height: 42px;
+  color: #ffffffff;
+  background-color: coral;
+  border-radius: 63px 20px;
+  border: 2px solid;
+}
