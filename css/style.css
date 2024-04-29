@@ -5,7 +5,8 @@
 /*this is continer page*/
 .continer{
     margin-top: 0px;
-    padding: 20px;
+    padding-bottom: 0px;
+    padding-top:10px;
 
 }
 .menu-top{
@@ -14,6 +15,8 @@
   background-color: coral;
   width: 100%;
   display: flex;
+  padding-bottom: 0px;
+
 }
 .name-logo{
   width: 30%;
@@ -25,6 +28,8 @@
   Font-family: monospace;
   color: #ffffff;
   margin-left: 30px;
+  padding-bottom: 0px;
+
 
 }
 
@@ -38,6 +43,8 @@
   text-decoration: none;
   font-size: 20px;
   font-family: monospace;
+  padding-bottom: 0px;
+
 }
 .liste-menu li{
   list-style: none;
@@ -45,6 +52,8 @@
 .liste-menu li a{
   text-decoration: none;
   color: #ffffff;
+  padding-bottom: 0px;
+
 }
 .liste-menu li a:hover{
   text-decoration: underline;
@@ -57,6 +66,9 @@
   display: flex;
   justify-content: space-between;
   width: 100%;
+  padding-bottom: 0px;
+  border-bottom: 3px solid black;
+
 }
 .my-name{
   color: coral;
@@ -64,16 +76,21 @@
   width: 30%;
   text-transform: uppercase;
   padding: 30px;
+  padding-bottom: 0px;
+
 }
 .photo{
   width: 70%;
   padding-left: 10px;
+  padding-bottom: 0px;
 }
 /*this is image iditing in future*/
 .photoidie{
   width: 96%;
   height: 61%;
   border-radius: 50%; /* Makes the image circular */
+  padding-bottom: 0px;
+
 }
 /*this is title name in futu*/
 .titlename{
@@ -93,4 +110,183 @@
   background-color: coral;
   border-radius: 63px 20px;
   border: 2px solid;
+  padding-bottom: 0px;
+}
+.button1:hover{
+  border-radius: 20px 60px;
+  border: 2px solid black;
+}
+.ligne{
+  background-color: coral;
+  width: 100%;
+  height: 50px;
+  border-bottom: 2px solid black;
+
+}
+.fa-github{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+.fa-blogger{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+.fa-linkedin{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+.section2{
+  width: 100%;
+  height: 502px;
+  display: flex;
+  background-color: coral;
+  border-radius: 220px 20px 220px 1px
+}
+.y-name2{
+  justify-content: space-between;
+  width: 100%;
+  color: coral;
+}
+.anouimag{
+  color: coral;
+  height: 100px;
+  border: 2px solid #ffffff;
+  margin-left: 223px;
+  margin-top: 121px;
+  border-radius: 50%;
+  width: 50%;
+  }
+.div2{
+  margin: 133px;
+  width: 58%;
+}
+.titlename2{
+  text-align: left;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.para-expl2{
+  text-align: left;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: monospace;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.section3{
+  background-color: coral;
+  margin-top: 0px;
+  width: 100%;
+  height: 50px;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+  padding-top: 10px;
+}
+.fa-youtube{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+.fa-instagram{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+.fa-facebook{
+  font-size: 30px;
+  width: 30%;
+  text-align: center;
+  color: #ffffff;
+}
+/* This sample only CSS */
+
+
+.skill-main {
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  .skill-wrrap {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    .skill-name {
+      color: #ffffff;
+      font-size: 18px;
+      font-weight: 500;
+    }
+
+    .skill-bar {
+      height: 20px;
+      background-color: #00283a;
+      border-radius: 8px;
+    }
+
+    .skill-per {
+      height: 20px;
+      background: #ffffff;
+      border-radius: 8px;
+      width: 0;
+      transition: 1s linear;
+      position: relative;
+      &:before {
+        content: attr(per);
+        position: absolute;
+        padding: 4px 6px;
+        background-color: black;
+        color: #fff;
+        font-size: 11px;
+        border-radius: 4px;
+        top: -35px;
+        right: 0;
+        transform: translateX(50%);
+      }
+
+      &:after {
+        content: "";
+        position: absolute;
+        width: 10px;
+        height: 10px;
+        background-color: black;
+        top: -20px;
+        right: 0;
+        transform: translateX(50%) rotate(45deg);
+        border-radius: 2px;
+      }
+    }
+  }
+}
+
+.section4{
+    margin: 103px;
+    padding: 100px;
+    background-color: coral;
+    border-radius: 50px 328px;
+    border-left: 2px solid black;
+    border-right:2px solid black;
+      }
+.know{
+  text-align: center;
+  font-size: 50px;
+  color: coral;
+}
+.myname4{
+  width: 100%;
+}
+.H1TITLE{
+  text-align: center;
+  font-size: 30px;
+  color: #ffffff;
 }
